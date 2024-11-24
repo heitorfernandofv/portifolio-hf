@@ -772,7 +772,7 @@ footer {
 
 @media screen and (max-width:992px){
     .container-1 {
-        padding: 10vh 10vh 0vh 10vh;
+        padding: 7.5vh 10vh 0vh 7.5vh;
     }
 
     .menu-cabecalho {
@@ -785,6 +785,18 @@ footer {
 
     .menu-cabecalho.scroll {
         padding: 2vh;
+    }
+
+    .nome-ocupacao h1 {
+        font-size: 3.2rem;
+    }
+
+    #ocupacao {
+        font-size: 0.8rem;
+    }
+
+    .graduacao {
+        font-size: 0.9rem;
     }
 
     .container-2 {
