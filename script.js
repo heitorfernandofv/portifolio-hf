@@ -52,17 +52,16 @@ function abrirMenuMobile() {
     imgAbrirMenu.style.display = 'none';
     menuMobile.style.display = 'block';
     imgFecharMenu.style.display = 'block';
-    toggleVisibilidadeConteudo(true); // Oculta o conteúdo principal
+    toggleVisibilidadeConteudo(true); 
 }
 
 function fecharMenuMobile() {
     imgFecharMenu.style.display = 'none';
     menuMobile.style.display = 'none';
     imgAbrirMenu.style.display = 'block';
-    toggleVisibilidadeConteudo(false); // Mostra o conteúdo principal
+    toggleVisibilidadeConteudo(false);
 }
 
-// Fecha o menu ao clicar em qualquer item do menu
 itensMenu.forEach(item => {
     item.addEventListener('click', fecharMenuMobile);
 });
